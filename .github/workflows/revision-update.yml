@@ -44,7 +44,7 @@ jobs:
 
       - name: Push to github
         run: |
-          git config --global user.email "melxin@tutamail.com"
+          git config --global user.email "adrian989@me.com"
           git config --global user.name "Github Actions"
           git add .
 
