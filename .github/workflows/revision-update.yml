@@ -3,7 +3,7 @@ name: OSRS Revision Update
 on:
   push:
     branches:
-      - dev
+      - master
   schedule:
     - cron: 0/30 * * * *
 
