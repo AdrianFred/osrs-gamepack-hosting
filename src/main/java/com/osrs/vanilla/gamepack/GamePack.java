@@ -185,6 +185,7 @@ public class GamePack
 		}
 	}
 
+
 	public void publishToMavenLocal()
 	{
 		final Stopwatch stopwatch = Stopwatch.createStarted();
