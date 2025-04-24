@@ -54,7 +54,7 @@ jobs:
 
             if [ -n "$jar_changed" ]; then
               git commit -m "release - $REVISION"
-              git push https://melxin:${{ secrets.REPO_PAT }}@github.com/melxin/osrs-gamepack-hosting.git master
+              git push https://adrianfred:${{ secrets.REPO_PAT }}@github.com/adrianfred/osrs-gamepack-hosting.git master
             else
               echo ".jar file must be changed to commit."
             fi
