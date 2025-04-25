@@ -46,7 +46,7 @@ jobs:
       - name: Push to github
         run: |
           git config --global user.email "adrian989@me.com"
-          git config --global user.name "Github Actions"
+          git config --global user.name "AdrianFred"
           git add .
 
           if ! git diff --cached --quiet; then
